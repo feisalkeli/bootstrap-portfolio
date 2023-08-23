@@ -1,12 +1,13 @@
-import { Navbar } from "react-bootstrap";
 import Banner from "./components/Banner";
-import "./App.css";
+import Skills from "./components/Skills";
 import NavBar from "./components/NavBar";
+import "./App.css";
 function App() {
   return (
     <div className="App">
       <NavBar />
       <Banner />
+      <Skills />
     </div>
   );
 }
