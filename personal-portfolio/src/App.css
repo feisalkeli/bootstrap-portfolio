@@ -58,6 +58,10 @@ h6 {
   position: relative;
   background-color: black;
 }
+.project-card {
+  display: flex;
+  justify-content: space-evenly;
+}
 .project h2 {
   font-size: 45px;
   font-weight: 700;

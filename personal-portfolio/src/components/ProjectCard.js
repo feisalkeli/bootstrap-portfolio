@@ -3,17 +3,19 @@ import { Col, Row } from "react-bootstrap";
 const ProjectCard = ({ title, description, imgUrl }) => {
   return (
     <>
-      <Col sm={6} md={4}>
-        <Row>
-          <div className="proj-imgbx">
-            <img src={imgUrl} />
-            <div className="proj-txtx">
-              <h4>{title}</h4>
-              <span>{description}</span>
+      <section className="project-card">
+        <Col sm={6} md={4}>
+          <Row>
+            <div className="proj-imgbx">
+              <img src={imgUrl} />
+              <div className="proj-txtx">
+                <h4>{title}</h4>
+                <span>{description}</span>
+              </div>
             </div>
-          </div>
-        </Row>
-      </Col>
+          </Row>
+        </Col>
+      </section>
     </>
   );
 };

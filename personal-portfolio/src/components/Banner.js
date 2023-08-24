@@ -56,9 +56,14 @@ const Banner = () => {
           <Col xs={12} md={6} xl={7}>
             <span className="tagline">Welcome to my Portfolio</span>
             <h1>
-              Hi I am Feisal Keli <span className="wrap">{text}</span>
+              Hi I'm Feisal Keli a{" "}
+              <span className="wrap">Web and Mobile Developer</span>
             </h1>
-            <p>description about yourself</p>
+            <p>
+              Web and Mobile Developer with expertise in JavaScript, SQL, and
+              Ruby on Rails, I aim to deliver high-quality code and collaborate
+              effectively to build intuitive web applications.
+            </p>
             <button onClick={() => console.log("lets connect")}>
               Lets Connect <ArrowRightCircle />
             </button>
